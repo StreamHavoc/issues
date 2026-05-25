@@ -7,30 +7,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing an idea. Please focus on the problem and the value it would create.
+        Thanks for sharing an idea. A quick summary is enough if that is all you have.
   - type: textarea
-    id: problem
+    id: request
     attributes:
-      label: What problem are you trying to solve?
-      description: Describe the need, frustration, or opportunity.
-      placeholder: I wish there was a way to...
+      label: Feature request
+      description: Fill in as much or as little as you like.
+      placeholder: |
+        What problem are you trying to solve?
+        Describe the need, frustration, or opportunity.
+
+        What would you like to happen?
+        Describe the feature or improvement you want.
+
+        Alternatives considered
+        Share any workarounds or alternate ideas if relevant.
+
+        Additional context
+        Mockups, examples, screenshots, or related links.
     validations:
       required: true
-  - type: textarea
-    id: proposal
-    attributes:
-      label: What would you like to happen?
-      description: Describe the feature or improvement you want.
-      placeholder: It would be great if Stream Havoc could...
-    validations:
-      required: true
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives considered
-      description: Share any workarounds or alternate ideas you have already considered.
-  - type: textarea
-    id: extra
-    attributes:
-      label: Additional context
-      description: Mockups, examples, screenshots, or related links.

@@ -9,26 +9,21 @@ body:
       value: |
         If you just need a quick conversation, you can also join the Stream Havoc Discord.
   - type: textarea
-    id: need
+    id: request
     attributes:
-      label: What do you need help with?
-      description: Describe the issue or question clearly.
-      placeholder: I'm trying to set up...
+      label: Support request
+      description: Fill in as much or as little as you can.
+      placeholder: |
+        What do you need help with?
+        Describe the issue or question clearly.
+
+        What have you already tried?
+        Tell us anything you have already attempted.
+
+        Environment
+        Device, browser, OS, or setup details that may help.
+
+        Additional context
+        Screenshots, logs, links, or anything else useful.
     validations:
       required: true
-  - type: textarea
-    id: tried
-    attributes:
-      label: What have you already tried?
-      description: Tell us what you have already attempted.
-  - type: input
-    id: environment
-    attributes:
-      label: Environment
-      description: Device, browser, OS, or setup details that may help us troubleshoot.
-      placeholder: OBS on Windows 11, Twitch panel, ESP32 device setup
-  - type: textarea
-    id: extra
-    attributes:
-      label: Additional context
-      description: Screenshots, logs, links, or anything else useful.
