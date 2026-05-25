@@ -4,7 +4,8 @@
 
 # Stream Havoc Issues
 
-Welcome to the issue tracker where you can report Stream Havoc bugs, support and feature requests. Select an option below to begin.
+Welcome to the issue tracker where you can report Stream Havoc bugs, support and feature requests.
+Select an option below to begin.
 
 <br>
 
