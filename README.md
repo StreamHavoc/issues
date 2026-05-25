@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="./assets/logo6.svg" alt="Stream Havoc" width="360">
+<p>
+  <img src="./assets/logo6.svg" alt="Stream Havoc" width="300">
 </p>
 
 # Stream Havoc Issues
