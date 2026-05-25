@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="40" viewBox="0 0 320 40" role="img" aria-labelledby="title">
+  <title>Support Request</title>
+  <rect width="230" height="40" fill="#43A047"/>
+  <rect x="230" width="90" height="40" fill="#555555"/>
+  <text x="115" y="25" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" text-anchor="middle">SUPPORT REQUEST</text>
+  <text x="275" y="25" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6" text-anchor="middle">OPEN</text>
+</svg>

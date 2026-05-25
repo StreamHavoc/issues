@@ -1,0 +1,63 @@
+name: Copy Public Issue To Private
+
+on:
+  issues:
+    types:
+      - opened
+
+permissions:
+  issues: write
+
+jobs:
+  copy-to-private:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create private copy
+        id: create_private_issue
+        uses: actions/github-script@v7
+        env:
+          PRIVATE_REPO: StreamHavoc/issues-private
+        with:
+          github-token: ${{ secrets.PRIVATE_ISSUES_TOKEN }}
+          script: |
+            const core = require('@actions/core');
+            const [owner, repo] = process.env.PRIVATE_REPO.split('/');
+            const issue = context.payload.issue;
+            const labelNames = (issue.labels || []).map((label) => label.name);
+            const mirroredLabels = labelNames.filter((name) =>
+              ['type:bug', 'type:feature', 'type:support'].includes(name)
+            );
+            mirroredLabels.push('source:public');
+
+            const body = [
+              'This issue was created automatically from the public Stream Havoc issue tracker.',
+              '',
+              `Public issue: ${issue.html_url}`,
+              `Reported by: @${issue.user.login}`,
+              '',
+              '---',
+              '',
+              issue.body || '_No description provided._',
+            ].join('\n');
+
+            const created = await github.rest.issues.create({
+              owner,
+              repo,
+              title: `[Public] ${issue.title}`,
+              body,
+              labels: mirroredLabels,
+            });
+
+            core.setOutput('private_issue_number', created.data.number);
+
+      - name: Confirm internal tracking on public issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'Thanks for the report. We have copied this into our internal tracker for triage.',
+            });
