@@ -1,5 +1,7 @@
 <p>
-  <img src="./assets/logo6.svg" alt="Stream Havoc" width="300">
+  <a href="https://www.streamhavoc.com">
+    <img src="./assets/logo6.svg" alt="Stream Havoc" width="300">
+  </a>
 </p>
 
 # Stream Havoc Issues
