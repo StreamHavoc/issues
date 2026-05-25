@@ -1,9 +1,11 @@
 <table width="100%" style="border:none; border-collapse:collapse;">
   <tr style="border:none;">
     <td valign="middle" width="50%" align="center" style="border:none; padding:0 12px 0 0;">
-      <a href="https://www.streamhavoc.com">
-        <img src="./assets/logo6.svg" alt="Stream Havoc" width="260">
-      </a>
+      <div style="height: 190px; display: flex; align-items: center; justify-content: center;">
+        <a href="https://www.streamhavoc.com">
+          <img src="./assets/logo6.svg" alt="Stream Havoc" width="260">
+        </a>
+      </div>
     </td>
     <td valign="middle" width="50%" align="center" style="border:none; padding:0 0 0 12px;">
       <p style="margin: 0 0 6px 0;">
