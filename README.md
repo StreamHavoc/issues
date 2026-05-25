@@ -2,6 +2,7 @@
   <img src="./assets/logo6.svg" alt="Stream Havoc" width="300" align="left">
 </a>
 
+<p align="right">
 <a href="https://github.com/StreamHavoc/issues/issues/new?template=bug_report.yml">
   <img src="./assets/button-bug-report.svg" alt="Bug Report" width="280">
 </a>
@@ -21,6 +22,7 @@
 <a href="https://github.com/StreamHavoc/issues/issues">
   <img src="./assets/button-known-issues.svg" alt="View Known Issues" width="280">
 </a>
+</p>
 <br clear="all">
 
 # Stream Havoc Issues
