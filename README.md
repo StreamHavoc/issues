@@ -1,41 +1,27 @@
-<table width="100%" style="border:none; border-collapse:collapse;">
-  <tr style="border:none;">
-    <td valign="middle" width="50%" align="center" style="border:none; padding:0 12px 0 0;">
-      <div style="height: 190px; display: flex; align-items: center; justify-content: center;">
-        <a href="https://www.streamhavoc.com">
-          <img src="./assets/logo6.svg" alt="Stream Havoc" width="260">
-        </a>
-      </div>
-    </td>
-    <td valign="middle" width="50%" align="center" style="border:none; padding:0 0 0 12px;">
-      <p style="margin: 0 0 6px 0;">
-        <a href="https://github.com/StreamHavoc/issues/issues/new?template=bug_report.yml">
-          <img src="./assets/button-bug-report.svg" alt="Bug Report" width="300">
-        </a>
-      </p>
-      <p style="margin: 0 0 6px 0;">
-        <a href="https://github.com/StreamHavoc/issues/issues/new?template=feature_request.yml">
-          <img src="./assets/button-feature-request.svg" alt="Feature Request" width="300">
-        </a>
-      </p>
-      <p style="margin: 0 0 6px 0;">
-        <a href="https://github.com/StreamHavoc/issues/issues/new?template=support_request.yml">
-          <img src="./assets/button-support-request.svg" alt="Support Request" width="300">
-        </a>
-      </p>
-      <p style="margin: 0 0 6px 0;">
-        <a href="https://discord.gg/dvqdqnzSkS">
-          <img src="./assets/button-discord.svg" alt="Stream Havoc Discord" width="300">
-        </a>
-      </p>
-      <p style="margin: 0;">
-        <a href="https://github.com/StreamHavoc/issues/issues">
-          <img src="./assets/button-known-issues.svg" alt="View Known Issues" width="300">
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+<a href="https://www.streamhavoc.com">
+  <img src="./assets/logo6.svg" alt="Stream Havoc" width="260" align="left">
+</a>
+
+<a href="https://github.com/StreamHavoc/issues/issues/new?template=bug_report.yml">
+  <img src="./assets/button-bug-report.svg" alt="Bug Report" width="300">
+</a>
+<br>
+<a href="https://github.com/StreamHavoc/issues/issues/new?template=feature_request.yml">
+  <img src="./assets/button-feature-request.svg" alt="Feature Request" width="300">
+</a>
+<br>
+<a href="https://github.com/StreamHavoc/issues/issues/new?template=support_request.yml">
+  <img src="./assets/button-support-request.svg" alt="Support Request" width="300">
+</a>
+<br>
+<a href="https://discord.gg/dvqdqnzSkS">
+  <img src="./assets/button-discord.svg" alt="Stream Havoc Discord" width="300">
+</a>
+<br>
+<a href="https://github.com/StreamHavoc/issues/issues">
+  <img src="./assets/button-known-issues.svg" alt="View Known Issues" width="300">
+</a>
+<br clear="all">
 
 # Stream Havoc Issues
 
