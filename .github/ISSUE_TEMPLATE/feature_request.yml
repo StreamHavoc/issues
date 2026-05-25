@@ -13,7 +13,7 @@ body:
     attributes:
       label: Feature request
       description: Fill in as much or as little as you like.
-      placeholder: |
+      value: |
         What problem are you trying to solve?
         Describe the need, frustration, or opportunity.
 

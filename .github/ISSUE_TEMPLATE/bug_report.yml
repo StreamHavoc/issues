@@ -13,7 +13,7 @@ body:
     attributes:
       label: Bug report
       description: Fill in as much or as little as you can.
-      placeholder: |
+      value: |
         What happened?
         Describe the bug clearly.
 

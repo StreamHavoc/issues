@@ -13,7 +13,7 @@ body:
     attributes:
       label: Support request
       description: Fill in as much or as little as you can.
-      placeholder: |
+      value: |
         What do you need help with?
         Describe the issue or question clearly.
 
