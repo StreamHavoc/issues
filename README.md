@@ -1,11 +1,11 @@
-<table>
-  <tr>
-    <td valign="top" width="38%">
+<table width="100%" style="border:none; border-collapse:collapse;">
+  <tr style="border:none;">
+    <td valign="middle" width="50%" align="center" style="border:none; padding:0 12px 0 0;">
       <a href="https://www.streamhavoc.com">
         <img src="./assets/logo6.svg" alt="Stream Havoc" width="260">
       </a>
     </td>
-    <td valign="top" width="62%">
+    <td valign="middle" width="50%" align="center" style="border:none; padding:0 0 0 12px;">
       <p style="margin: 0 0 6px 0;">
         <a href="https://github.com/StreamHavoc/issues/issues/new?template=bug_report.yml">
           <img src="./assets/button-bug-report.svg" alt="Bug Report" width="300">
