@@ -4,26 +4,11 @@ title: "[Feature]: "
 labels:
   - type:feature
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for sharing an idea. A quick summary is enough if that is all you have.
   - type: textarea
     id: request
     attributes:
       label: Feature request
-      description: Fill in as much or as little as you like.
       value: |
-        What problem are you trying to solve?
-        Describe the need, frustration, or opportunity.
-
-        What would you like to happen?
-        Describe the feature or improvement you want.
-
-        Alternatives considered
-        Share any workarounds or alternate ideas if relevant.
-
-        Additional context
-        Mockups, examples, screenshots, or related links.
+        Give your feedback, or explain the feature you would like to see added to Stream Havoc
     validations:
       required: true

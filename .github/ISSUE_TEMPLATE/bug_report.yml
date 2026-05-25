@@ -4,29 +4,13 @@ title: "[Bug]: "
 labels:
   - type:bug
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to report a problem. A short report is absolutely fine.
   - type: textarea
     id: report
     attributes:
       label: Bug report
-      description: Fill in as much or as little as you can.
       value: |
         What happened?
         Describe the bug clearly.
-
-        Steps to reproduce
-        1.
-        2.
-        3.
-
-        What did you expect to happen?
-        Tell us what you expected instead.
-
-        Environment
-        Browser, device, OS, or any other useful details.
 
         Additional context
         Screenshots, logs, links, or anything else helpful.
